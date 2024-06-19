@@ -24,10 +24,10 @@
                       </div>
                     @enderror
 
-                    <label for="email">Email</label>
+                    <label for="email" class="form-label">Email</label>
                     <input type="email" name="email" id="email" class="form-control mb-3 @error('email') is-invalid @enderror" value="{{old('email')}}" required autocomplete="email" autofocus>
 
-                    <label for="password">Mot de passe</label>
+                    <label for="password" class="form-label">Mot de passe</label>
                     <input type="password" name="password" id="password" class="form-control mb-3 @error('password') is-invalid @enderror" required autocomplete="current-password">
 
                     <div class="row">
@@ -38,7 +38,7 @@
                               </div>
                         </div>
                         <div class="col-md-6 text-right">
-                            <a href="#">Mot de passe oublié?</a>
+                            <a href="{{route('app_forgotPassword')}}">Mot de passe oublié?</a>
                         </div>
                     </div>
                     <div class="d-grid gad-2">

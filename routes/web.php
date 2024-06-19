@@ -18,6 +18,7 @@ Route::controller(LoginController::class)->group(function(){
 
     Route::get('/logout','logout')->name('app_logout');
     Route::post('/exist_email','existEmail')->name('app_existEmail');
+    Route::match(['get','post'],'/forgot_password','forgotPassword')->name('app_forgotPassword');
 
 });
 

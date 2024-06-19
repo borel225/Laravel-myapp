@@ -98,6 +98,8 @@ $('#register-user').click(function(){
 
     });
 
+    $()
+
     function emailExistjs(email)
     {
         var url =$('#email').attr('url-emailExist');

@@ -43,5 +43,10 @@ class LoginController extends Controller
             'response'=> $response
         ]);
     }
+
+    public function forgotPassword()
+    {
+        return view('auth.forgot_password');
+    }
 }
 
