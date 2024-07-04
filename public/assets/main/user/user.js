@@ -5,6 +5,9 @@ $('#register-user').click(function(){
     var firstname = $('#firstname').val();
     var lastname = $('#lastname').val();
     var email = $('#email').val();
+    var fonction = $('#fonction').val();
+    var service = $('#service').val();
+    var choix = $('#choix').val();
     var password = $('#password').val();
     var password_confirm = $('#password-confirm').val();
     var passwordLength = password.length;

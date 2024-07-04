@@ -18,9 +18,9 @@ class HomeController extends Controller
         return view('home.about');
     }
 
-    public function dashboard()
+    public function createMission()
     {
-        return view('home.dashboard');
+        return view('home.createMission');
     }
 
 }

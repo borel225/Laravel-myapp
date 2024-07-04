@@ -3,5 +3,5 @@
 @section('title', 'home')
 
 @section('content')
-<h1>dashboard</h1>
+<h1>creer une mission</h1>
 @endsection
